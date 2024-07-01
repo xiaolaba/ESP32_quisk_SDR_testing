@@ -48,12 +48,15 @@ if sys.platform == "win32":
 搭建簡單電路的步驟不寫, 就是手工藝品加上麵包板即可. IQ 訊號經過 3.5mm 耳機插頭, 插入 PC 的 MIC-IN 或者 LINE-IN, 接上天線, 可以開始聽聽這個簡化版的 SDR, 主要是聽 AM756, 調幅廣播, 頻率756KHz, 中國之聲, 因為各地的強電台可能不同頻率, 找不到 AM756, 可以自行搜尋一下wiki或者百度.  
 
 ### 啟動這個 AM 收音機
-仍然在 DOSBOX 裡面, 輸入指令, 如果看不到任何畫面或者報錯, 大概 OS 不是純英文版, 例如一台 PC WIN10 64bit Pro, 台灣版 CODE PAGE 950, 報錯 [UnicodeDecoderError cp950](UnicodeDetecError cp950), 解決方法看下面.  
+仍然在 DOSBOX 裡面, 輸入指令, 
 ```
 python -m quisk
 ```
 
-看到 quisk 的畫面後, 可以 config, 加入一個 RADIO, 改個自己愛好的名字, 點選它, 指定 IQ config 的資料檔, 例如 %userprofile%\Documents\xiao_quisk_conf.py
+如果看不到任何畫面或者報錯, 大概 OS 不是純英文版, 例如一台 PC WIN10 64bit Pro, 台灣版 CODE PAGE 950, 報錯 [UnicodeDecoderError cp950](UnicodeDetecError cp950), 解決方法看下面.  
+
+### 設定 SDR
+看到 quisk 的畫面後, 可以 config, 加入一個 RADIO, 改個自己愛好的名字, 點選它, 指定 IQ config 的資料檔, 例如 %userprofile%\Documents\xiao_quisk_conf.py  
 關閉 quisk 然後再次運行, 輸入頻率 756000 然後按 ENTER, 應該就可以開始聽 AM7560.
 
 ### UnicodeDecoderError cp950
