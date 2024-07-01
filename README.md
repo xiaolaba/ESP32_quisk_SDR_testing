@@ -98,9 +98,10 @@ ref:
 
 ### UnicodeDecoderError cp950
 原作者可能漏掉, 有些 open file 的操作省略了 encoding="utf8", %userprofile%\Documents 這等非英文OS的路徑操作失敗, 就會無法執行 quisk.  
-有向原作者反映, 用 pip 安裝的 quisk, 要自行修改兩個 py 檔, 如下.
+有向原作者反映, 用 pip 安裝的 quisk, 要自行修改兩個 py 檔, 如下.  
 github 的原始碼4.2.35則有一個 quisk.py 檔已經改過, 剩下一個 configure.py 還是沒改, 原作者說下一版會修好, pull request 關閉.  
-叉回來, 改過 https://github.com/xiaolaba/quisk, 參考而已.  
+叉回來, 改過的 https://github.com/xiaolaba/quisk, 參考而已. 
+
 
 ```
 configure.py, line 604
@@ -111,4 +112,10 @@ self.fp = open(self.path, "a", buffering=1, encoding='utf-8', errors='replace', 
 ```
 
 
-###
+### 結語
+SDR 這種, 用 Tayloe Detector 把 RF 訊號, 以一個4接點的旋轉開關, 斬波式混頻, 把無線電訊號一個週期分成四等份, 生成同樣的頻率90度移相的IQ兩個訊號, 用低速ADC取樣, 軟體運算解調.  
+旋轉開關的速度 = 4 x RF, 意思就是, 若要接收 756KHz 的訊號, 旋轉開關的速率 4 x 756KHz = 3.024MHz , 每個接點的接通時間 1/3.024 = 0.331 us.  
+
+2010年老外介紹帶了一個 softrock II 來亞洲, 他們玩 HAM, 首次接觸 Tayloe Detector, 俺不懂玩 HAM, 所以自己改了 820KHz 聽 AM. 這個玩意看起來是 SDR (Software Defined Radio) 的基礎之一, 還有個 MOTOROLA 在 1998 年的專利, 應該是當時一個僱員名為 Daniel Richard Tayloe 所做的工作, 2008 年轉讓給了他自己, 專利號碼US6230000, 已經轉讓多次了, http://www.google.com/patents/US6230000. 現在越來越多資源資訊, 抄個SDR玩很容易了.
+
+能聽到電台, 不代表聲音很好, 目的在聽得到, 純粹入門教學用和簡易體驗套件組成, 可以理解 SDR 跟 LC TANK 的分別. 更深入的還有很多, 其實現代的無線電都包含SDR.
