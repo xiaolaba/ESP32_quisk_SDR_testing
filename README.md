@@ -50,6 +50,8 @@ if sys.platform == "win32":
   openradio_serial_port = "COM6"
 ```
 
+
+come port 6, cp2102 chip,  
 ![project_log/NODEMCU_32S_COM_PORT.JPG](project_log/NODEMCU_32S_COM_PORT.JPG) 
 
 
@@ -68,10 +70,18 @@ python -m quisk
 ### 設定 SDR
 看到 quisk 的畫面後, 可以 config, 加入一個 RADIO, 改個自己愛好的名字.  
 點選它, 指定 IQ config 的資料檔, 例如 %userprofile%\Documents\xiao_quisk_conf.py  
-關閉 quisk 然後再次運行, 輸入頻率 756000 然後按 ENTER, 應該就可以開始聽 AM7560.
+關閉 quisk 然後再次運行, 輸入頻率 756000 然後按 ENTER, 應該就可以開始聽 AM7560.  
+
+AM756 tune,  
 ![project_log/AM756.JPG](project_log/AM756.JPG)  
+
+IO status,  
 ![project_log/IQ_sample_rate_status.JPG](project_log/IQ_sample_rate_status.JPG)  
+
+MIC setup, 
 ![project_log/IQ_Mic_in_setup.JPG](project_log/IQ_Mic_in_setup.JPG)  
+
+ref:   
 ![project_log/easysdr.JPG](project_log/easysdr.JPG)  
 
 ### UnicodeDecoderError cp950
