@@ -1,6 +1,11 @@
 # ESP32_quisk_SDR_testing
 AM收音機, 不是用來聽廣播節目, 只玩它的接收原理加深認識, 所謂SDR, 就是軟件定義無線電. 這個實驗純粹收音機, 不需要執照不含發射, 這種收音機不需要 LC TANK.   
 
+![project_log/xiao_esp32_sdr.JPG](project_log/xiao_esp32_sdr.JPG)  
+
+
+
+
 都是抄來的, 不需要自己發明輪子, 但是有些地方因為手邊有些小問題或者零件不同, 小改動  
 clone these,  
 https://github.com/michalin/easysdr  
