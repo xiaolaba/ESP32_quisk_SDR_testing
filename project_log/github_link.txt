@@ -7,3 +7,6 @@
 ![project_log/NodeMCU-32_LED1_IO2.JPG](project_log/NodeMCU-32_LED1_IO2.JPG)  
 ![project_log/NODEMCU_32S_COM_PORT.JPG](project_log/NODEMCU_32S_COM_PORT.JPG)  
 ![project_log/reference.txt](project_log/reference.txt)  
+![project_log/xiao_esp32_sdr.JPG](project_log/xiao_esp32_sdr.JPG)  
+![project_log/xiao_esp32_sdr_schematic.jpg](project_log/xiao_esp32_sdr_schematic.jpg)  
+![project_log/xiao_esp32_sdr_shake.jpg](project_log/xiao_esp32_sdr_shake.jpg)  
