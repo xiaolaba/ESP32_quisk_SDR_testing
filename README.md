@@ -59,6 +59,9 @@ come port 6, cp2102 chip,
 燒寫後板上的 藍色 LED 應該會閃爍, 表示正常可以接收 quisk 傳來的指令  
 搭建簡單電路的步驟不寫, 就是手工藝品加上麵包板即可. IQ 訊號經過 3.5mm 耳機插頭, 插入 PC 的 MIC-IN 或者 LINE-IN, 接上天線, 可以開始聽聽這個簡化版的 SDR, 主要是聽 AM756, 調幅廣播, 頻率756KHz, 中國之聲, 因為各地的強電台可能不同頻率, 找不到 AM756, 可以自行搜尋一下wiki或者百度.  
 
+esp32 燒錄檔和工具 [esp32_sdr_firmware](esp32_sdr_firmware)  
+esp32 的原碼,  [esp32_sdr_source](esp32_sdr_source)  
+
 ### 啟動這個 AM 收音機
 仍然在 DOSBOX 裡面, 輸入指令, 
 ```
