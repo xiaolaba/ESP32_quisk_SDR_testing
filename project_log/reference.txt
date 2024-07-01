@@ -1,0 +1,5 @@
+clone these, 
+https://github.com/michalin/easysdr
+https://www.youtube.com/watch?v=HCDi5qV1cmU
+
+modified code to flashing LED, used different analog swith and OPA. 
