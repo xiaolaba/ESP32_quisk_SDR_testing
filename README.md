@@ -53,7 +53,7 @@ if sys.platform == "win32":
 python -m quisk
 ```
 
-如果看不到任何畫面或者報錯, 大概 OS 不是純英文版, 例如一台 PC WIN10 64bit Pro, 台灣版 CODE PAGE 950, 報錯 [UnicodeDecoderError cp950](UnicodeDetecError cp950), 解決方法看下面.  
+如果看不到任何畫面或者報錯, 大概 OS 不是純英文版, 例如一台 PC WIN10 64bit Pro, 台灣版 CODE PAGE 950, 報錯 [UnicodeDecoderError cp950](#unicodedecodererror-cp950), 解決方法看下面.  
 
 ### 設定 SDR
 看到 quisk 的畫面後, 可以 config, 加入一個 RADIO, 改個自己愛好的名字, 點選它, 指定 IQ config 的資料檔, 例如 %userprofile%\Documents\xiao_quisk_conf.py  
