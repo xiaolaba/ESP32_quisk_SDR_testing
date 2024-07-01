@@ -68,6 +68,10 @@ esp32 的原碼,  [esp32_sdr_source](esp32_sdr_source)
 python -m quisk
 ```
 
+![project_log/cmd_run_quisk.JPG](project_log/cmd_run_quisk.JPG)  
+
+
+
 如果看不到任何畫面或者報錯, 大概 OS 不是純英文版, 例如一台 PC WIN10 64bit Pro, 台灣版 CODE PAGE 950, 報錯 [UnicodeDecoderError cp950](#unicodedecodererror-cp950), 解決方法看下面.  
 
 ### 設定 SDR
