@@ -39,6 +39,16 @@ python -m pip install --upgrade pyserial
 python -m pip install --upgrade quisk 
 ```
 
+### 軟體的所在位置
+// python / quisk installed folder,
+```
+%userprofile%\AppData\Local\Programs\Python\Python311\Lib\site-packages\quisk
+```
+
+// quisk.exe installed folder, 
+```
+%userprofile%\AppData\Local\Programs\Python\Python311\Scripts
+```
 
 ### 設定軟體 quisk
 下載 xiao_quisk_conf.py, 通常它會自動安裝到 %userprofile%\Documents, 不行就自行複製.  
