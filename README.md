@@ -43,11 +43,17 @@ python -m pip install --upgrade quisk
 // python / quisk installed folder,
 ```
 %userprofile%\AppData\Local\Programs\Python\Python311\Lib\site-packages\quisk
+
+2025-NOV-03, diff PC and python version,
+%userprofile%\AppData\Local\Programs\Python\Python313\Lib\site-packages\quisk
 ```
 
 // quisk.exe installed folder, 
 ```
 %userprofile%\AppData\Local\Programs\Python\Python311\Scripts
+
+2025-NOV-03, diff PC and python version,
+%userprofile%\AppData\Local\Programs\Python\Python313\Scripts
 ```
 
 ### 設定軟體 quisk
