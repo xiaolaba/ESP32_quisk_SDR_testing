@@ -110,7 +110,8 @@ ref:
 原作者可能漏掉, 有些 open file 的操作省略了 encoding="utf8", %userprofile%\Documents 這等非英文OS的路徑操作失敗, 就會無法執行 quisk.  
 有向原作者反映, 用 pip 安裝的 quisk, 要自行修改兩個 py 檔, 如下.  
 github 的原始碼4.2.35則有一個 quisk.py 檔已經改過, 剩下一個 configure.py 還是沒改, 原作者說下一版會修好, pull request 關閉.  
-叉回來, 改過的 https://github.com/xiaolaba/quisk, 參考而已. 
+叉回來, 改過的 [https://github.com/xiaolaba/quisk_4.2.34_obsolete](https://github.com/xiaolaba/quisk_4.2.34_obsolete), 參考而已. 
+叉最新版2025-NOV-03 [https://github.com/xiaolaba/quisk](https://github.com/xiaolaba/quisk), 4.2.46 參考而已. 
 
 
 ```
